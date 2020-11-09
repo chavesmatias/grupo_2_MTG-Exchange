@@ -7,7 +7,7 @@ Proyecto Integrador Ecommerce - Curso Desarrollo Web Full Stack Node DH
 Adicional a la tradicional compra-venta, se brinda el servicio de permuta de cartas.
 
 ### Listado de referencia de sitios de Ecommerce:
-- [Magic Wizards] (https://magic.wizards.com/) _(Por los productos o servicios que ofrecen)_
+- [Magic Wizards](https://magic.wizards.com/) _(Por los productos o servicios que ofrecen)_
 - [CardKingdom](https://www.cardkingdom.com/) _(Por los productos o servicios que ofrecen)_
 - [Tienda Mia](https://tiendamia.com/ar) _(Por las funcionalidades implementadas)_
 - [Amazon](https://www.amazon.com/) _(Por la estética que presentan)_
