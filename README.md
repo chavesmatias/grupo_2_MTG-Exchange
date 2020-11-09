@@ -15,4 +15,4 @@ Adicional a la tradicional compra-venta, se brinda el servicio de permuta de car
 
 
 ### Integrantes del proyecto:
-- Matias Chaves. Edad: 34 años. Vive en Moreno. Trabaja en una cadena de supermecados en la parte de Logistica. Fan de la música y del cine. Terminando la carrera de Ing. Industrial en la UTN.
+- _**Matias Chaves**_. Edad: 34 años. Vive en Moreno. Trabaja en una cadena de supermecados en la parte de Logistica. Fan de la música y del cine. Terminando la carrera de Ing. Industrial en la UTN.
