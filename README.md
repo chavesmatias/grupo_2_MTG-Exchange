@@ -16,3 +16,6 @@ Adicional a la tradicional compra-venta, se brinda el servicio de permuta de car
 
 ### Integrantes del proyecto:
 - _**Matias Chaves**_. Edad: 34 años. Vive en Moreno. Trabaja en una cadena de supermecados en la parte de Logistica. Fan de la música y del cine. Terminando la carrera de Ing. Industrial en la UTN.
+
+
+-_**Juan Cruz Serafini**_. Edad 18 años. Vive en Santos Lugares. Estudia ingenieria ambiental en la Universidad de San Martin. Actualmente sin trabajo. Aficionado del deporte. 
