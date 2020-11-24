@@ -21,10 +21,8 @@ Adicional a la tradicional compra-venta, se brinda el servicio de permuta de car
 
 - _**Ezequiel Fraga**_- Edad: 19. Vive en Santos Lugares. Curso la carrera de Ingeniería Biomédica en la UNSAM. Aficionado del futbol y el cine. No trabajo actualmente.
 
+- _**Rodrigo Feito**_- Edad: 32. Vive en Lomas de Zamora. Contador público nacional. Le gusta realizar deportes, en especial futbol y salir a correr. Actualmente, empleado en relación de dependencia.
 
 ### Link a tablero de seguimiento:
 
 - https://trello.com/b/Y8ZOcDMk/mtg-exchange
-
-- _**Rodrigo Feito**_- Edad: 32. Vive en Lomas de Zamora. Contador público nacional. Le gusta realizar deportes, en especial futbol y salir a correr. Actualmente, empleado en relación de dependencia.
-
