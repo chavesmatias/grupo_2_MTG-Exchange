@@ -23,6 +23,10 @@ Adicional a la tradicional compra-venta, se brinda el servicio de permuta de car
 
 - _**Rodrigo Feito**_- Edad: 32. Vive en Lomas de Zamora. Contador público nacional. Le gusta realizar deportes, en especial futbol y salir a correr. Actualmente, empleado en relación de dependencia.
 
+<<<<<<< HEAD
 ### Link a tablero de seguimiento:
 
 - "https://trello.com/b/Y8ZOcDMk/mtg-exchange"
+=======
+- _**Carlos German Heineken**_- Edad: 35. Vive en San Antonio de Padua. Martillero y Musico. Fan de practicar cualquier deporte y videojuegos a cualquier hora. 
+>>>>>>> 6eb0ff75d8e783dd032e80a3121fbdd82304475b
