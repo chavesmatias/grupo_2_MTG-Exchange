@@ -25,4 +25,4 @@ Adicional a la tradicional compra-venta, se brinda el servicio de permuta de car
 
 ### Link a tablero de seguimiento:
 
-- https://trello.com/b/Y8ZOcDMk/mtg-exchange
+- "https://trello.com/b/Y8ZOcDMk/mtg-exchange"
