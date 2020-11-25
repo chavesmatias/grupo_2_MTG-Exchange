@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN</title>
+    <link href= "../public/css/registroStyle.css"  rel="stylesheet">
+    
+</head>
+
+<body>
+    <main>  
+          <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Login')">LOG IN</button>
+        <button class="tablinks" onclick="openCity(event, 'Register')">Register</button>
+       
+      </div>
+      
+      <!-- Tab content -->
+      <div id="Login" class="tabcontent">
+        <h3>LOGIN</h3>
+             <p>
+             <input type=“text” name=“username” id=“username” placeholder="E-mail">
+             </p>
+             <p>
+              <input type=“password” name=“password” id=“password” placeholder="Contraseña">
+              </p>
+             
+             <input type="button" value="Log In">
+            
+      </div>
+      
+      <div id="Register" class="tabcontent">
+        <h3>Register</h3>
+        <p>
+            <input type=“text” name=“nombre” id=“nombre” placeholder="Nombre y Apellido">
+            </p>
+            <p>
+                <input type=“date” name=“date” id=“date” placeholder="Fecha de Nacimiento">
+                </p>
+    
+        <p>       
+            <input type=“email” name=“email” id="email" placeholder="E-mail">
+            </p>
+            <p>
+             <input  type=“password” name=“password” id=“password” placeholder="Contraseña">
+             </p>
+            
+            <input  type="button" value=Register>
+           
+      </div>
+      
+    
+    
+      <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+
+    </main>
+    </body>
+    </html>
