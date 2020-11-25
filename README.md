@@ -19,15 +19,15 @@ Adicional a la tradicional compra-venta, se brinda el servicio de permuta de car
 
 - _**Juan Cruz Serafini**_. Edad 18 años. Vive en Santos Lugares. Estudia ingenieria ambiental en la Universidad de San Martin. Actualmente sin trabajo. Aficionado del deporte. 
 
-- _**Ezequiel Fraga**_- Edad: 19. Vive en Santos Lugares. Curso la carrera de Ingeniería Biomédica en la UNSAM. Aficionado del futbol y el cine. No trabajo actualmente.
+- _**Ezequiel Fraga**_. Edad: 19. Vive en Santos Lugares. Curso la carrera de Ingeniería Biomédica en la UNSAM. Aficionado del futbol y el cine. No trabajo actualmente.
 
-- _**Rodrigo Feito**_- Edad: 32. Vive en Lomas de Zamora. Contador público nacional. Le gusta realizar deportes, en especial futbol y salir a correr. Actualmente, empleado en relación de dependencia.
+- _**Rodrigo Feito**_. Edad: 32. Vive en Lomas de Zamora. Contador público nacional. Le gusta realizar deportes, en especial futbol y salir a correr. Actualmente, empleado en relación de dependencia.
 
-- _**Carlos German Heineken**_- Edad: 35. Vive en San Antonio de Padua. Martillero y Musico. Fan de practicar cualquier deporte y videojuegos a cualquier hora. 
+- _**Carlos German Heineken**_. Edad: 35. Vive en San Antonio de Padua. Martillero y Musico. Fan de practicar cualquier deporte y videojuegos a cualquier hora. 
 
 
 ### Link a tablero de seguimiento:
 
-- "https://trello.com/b/Y8ZOcDMk/mtg-exchange"
+- [Tablero Trello](https://trello.com/b/Y8ZOcDMk/mtg-exchange) 
 
 
