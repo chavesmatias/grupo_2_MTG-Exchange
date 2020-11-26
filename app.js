@@ -15,5 +15,9 @@ app.get('/login', function(req, res){
     res.sendFile(__dirname + '/views/registro.html')
 })
 
+app.get ('*', function(req, res){
+    res.sendFile(__dirname + '/public/' + req.url)
+})
+
 
 app.listen(3030, () => console.log("Servidor corriendo en el puerto 3030"))

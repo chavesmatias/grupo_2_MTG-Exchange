@@ -1,0 +1,26 @@
+{
+  "name": "grupo_2_MTG-Exchange",
+  "version": "1.0.0",
+  "description": "Proyecto Integrador Ecommerce - Curso Desarrollo Web Full Stack Node DH",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chavesmatias/grupo_2_MTG-Exchange.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chavesmatias/grupo_2_MTG-Exchange/issues"
+  },
+  "homepage": "https://github.com/chavesmatias/grupo_2_MTG-Exchange#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

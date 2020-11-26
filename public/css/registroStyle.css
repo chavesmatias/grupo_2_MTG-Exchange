@@ -40,6 +40,6 @@
     /* padding: 6px 12px;
     padding-top: none; */
     border: 6px solid violet;
-    background-image: url(/Users/cali/Desktop/integrador/grupo_2_MTG-Exchange/public/Design/Forest.jpg);
+    background-image: url(../Design/Forest.jpg);
     background-size: cover;
   }
