@@ -4,6 +4,7 @@
   "description": "Proyecto Integrador Ecommerce - Curso Desarrollo Web Full Stack Node DH",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon --exec babel-node app.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
