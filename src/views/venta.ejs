@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include ./partials/head-partial.ejs %>
+</head>
+
+<body class="login-body">
+  
+  <%- include ./partials/header-partial.ejs %>
+
+<section class=venta>
+   <h1>Que cartas queres vender?</h1>
+   <p>Necesitamos informacion sobre las cartas que quieras vender. </p> 
+   <p> Nombre, expansión, condición de la carta, cantidad, precio estimado por unidad.</p>
+   <p> A continuación te mostramos como escrirlos. Podes enviar cualquier cantidad. </p> 
+   <textarea name="venta-cartas" id="" cols="100%" rows="20" onfocus="this.value">
+Ejemplo: Elfo de LLanowar, Invasion, Nueva, 2, $10.00.
+Ejemplo: Multani Maro-Hechicero, Legado de Urza, Poco Uso, 1, $5.00.
+   </textarea>
+   <button type="submit">Borrar Todo</button><button type="submit">Enviar</button>
+
+</section>
+<footer>
+  "Here sprouted the first seedling of Argoth. Here the last tree will fall."
+</footer>
+</body>
+</html>
