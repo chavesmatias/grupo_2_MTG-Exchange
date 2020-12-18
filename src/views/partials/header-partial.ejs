@@ -1,0 +1,33 @@
+<header class="header">
+    <div class="logo" onclick="window.location.href='index'">
+        <img src="../images/logo.png" alt="logo" >
+    </div>
+    <div class="search">
+       <div class="search-w-button">
+        <input type="search" name="search" placeholder="Cuna de Gaia..." >
+        <i class='fas fa-search'></i>
+        <a href="busqueda-avanzada">Busqueda Avanzada</a>
+      </div> 
+        <nav class="header-nav">
+        <a href="compra">Compra</a> 
+         <a href="venta">Vende</a> 
+        <a href="../images/reglasmtg.pdf" target="blank">Aprende</a>
+        <a href="../images/compendiomtg.pdf" target="blank">Reglas</a>
+    </nav>
+    </div>
+    
+    <div class="menu">
+        <i class='fas fa-bars' onclick="openNav()"></i>
+        <i class='fas fa-shopping-cart' onclick="window.location.href='carrito'"></i>
+        </div>
+      </header>
+    
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="login">Log In</a> 
+              <a href="registro">Regitrarse</a> 
+              <a href="#">Ayuda</a> 
+              <a href="contacto">Contactanos</a>
+            </div>
+          </div>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include ./partials/head-partial.ejs %>
+</head>
+
+<body class="login-body">
+   
+  <%- include ./partials/header-partial.ejs %>
+
+
+<section>
+
+  <form class="busqueda-avanzada" action="">
+    <label for="name">Nombre:</label>
+    <input type="text">
+    <label for="expansion">Expansión:</label>
+    <select name="expansion" id="">
+      <option value="">Todas</option>
+      <option value="">Legado de Urza</option>
+      <option value="">Saga de Urza</option>
+      <option value="">Tempestad</option>
+      <option value="">Era de hielo</option>
+      <option value="">Quinta Edició</option>
+      <option value="">Nemesis</option>
+    </select>
+    <label for="Tipo">Rareza:</label>
+    <select name="rareza" id="">
+      <option value="">Todas</option>
+      <option value="">Comun</option>
+      <option value="">Infrecuent</option>
+      <option value="">Rara</option>
+      <option value="">Rara Mítica</option>
+      <option value="">Foil</option>
+    </select>
+
+    <div class="seleccion-color">  
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <label for="vehicle1" style="color:lightskyblue"> <i class='fas fa-tint'> </i> </label><br>
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+      <label for="vehicle2" style="color:white"> <i class='fas fa-sun'> </i> </label><br>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3" style="color:black"> <i class='fas fa-skull'></i> </label>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3" style="color:red"> <i class='fas fa-fire'> </i></label>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3" style="color:green"> <i class='fas fa-tree'> </i> </label>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3" style="color:gray"><i class='fas fa-circle'></i> </label>
+
+  </div>
+    
+    <div class="busqueda-color">  
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Unico color</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Ambos colores</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Un color u otro</label>
+    </div>
+    
+    <label for="Tipo">Tipo:</label>
+    <select name="tipo" id="">
+      <option value="">Todos</option>
+      <option value="">Criatura</option>
+      <option value="">Encantamiento</option>
+      <option value="">Hechizo Insananeo</option>
+      <option value="">Conjuro</option>
+      <option value="">Arefaco</option>
+      <option value="">Tierra</option>
+    </select>
+    <label for="Subtipo">Subtipo:</label>
+    <input type="text">
+    <label for="f-y-r">Fuerza y Resisitencia:</label>
+    <input type="text">
+    <label for="clave">Palabras clave:</label>
+    <input type="text">
+<br>
+</form>
+  <button type="submit">Buscar</button>  <button type="erase">Borrar</button>
+
+
+
+
+  
+   
+   
+</section>
+
+<footer>
+  "Here sprouted the first seedling of Argoth. Here the last tree will fall."
+</footer>
+</body>
+</html>
