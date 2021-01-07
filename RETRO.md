@@ -1,11 +1,11 @@
 RETROSPECTIVA
 
-Start Doing: Utilizar herramientas de organizacion como Trello para facilitar los conceptos y objetivos al equipo.
+Start Doing: Organizar mejor las herramientas como Trello para facilitar su uso hacia los miembros del equipo y establecer horarios semanales de reunion para avanzar gradualmente en el proyecto.
 
-More Of: Se busca una mejor organizacion del tiempo a la hora de comenzar a trabajar sobre el proyecto. O establecer algun horario de reunion fijo diario para dedicarle a este mismo.
+More Of: Se busca continuar utilizando la lluvia de ideas a la hora se avanzar sobre el trabajo y el implemento de otras aplicaciones a la hora de comunicarnos tales como Skype, Zoom o Google Meet. 
 
-Keep Doing: La idea es mantener el uso de aplicaciones que nos permitan trabajar de manera efectiva, como el uso de zoom o meet en caso de que Discord tire error, y de trello para una mayor claridad en los temas. Mantener las vias de comunicacion actuales y el brainstorming del equipo. 
+Keep Doing: Mantener las vias de comunicacion actuales y el brainstorming del equipo. Organizacion de las actividades mediante el tablero y division de las tareas hacia los integrantes. 
 
-Less Of: El objetivo es comenzar con mayor tiempo de anticipacion el trabajo sobre cada sprint.
+Less Of: Mala organizacion de tiempo o falta de comunicacion a la hora de organizar una reunion de equipo.
 
-Stop Doing: -
+Stop Doing: Dejar todo para ultimo momento.
