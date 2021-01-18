@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var userController = require("../controllers/userController");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -14,9 +15,13 @@ router.get('/venta', function(req, res, next) {
   res.render('venta', { title: 'venta' });
 });
 
-router.get('/registro', function(req, res, next) {
-  res.render('registro', { title: 'registro' });
-});
+
+router.get('/registro', userController.register)
+
+router.post('/registro', userController.create)
+
+
+
 
 router.get('/compra', function(req, res, next) {
   res.render('compra', { title: 'compra' });
