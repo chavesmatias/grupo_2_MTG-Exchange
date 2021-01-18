@@ -11,25 +11,23 @@ var productsController = {
 
 
       "create": function (req, res) {
-        let archivoProductos = fs.readFileSync('Data/Products.json', {encoding: 'utf-8'});
+        let archivoProductos = fs.readFileSync('Data/cardProducts.json', {encoding: 'utf-8'});
         let listadoProductos
         if (archivoProductos == "") {
           listadoProductos = []; }
           else {listadoProductos = JSON.parse (archivoProductos)}
-
-          listadoProductos = JSON.parse(listadoProductos);
         
-          var newProduct = {
-            nombre: req.body.nombre,
-            apellido: req.body.apellido,
-            fecha: req.body.fecha,
-            email: req.body.email
+          let newProduct = {
+            name: req.body.cardName,
+            manaCost: req.body.manaCost,
+            type: req.body.type,
+            text: req.body.hability,
           }
           listadoProductos.push (newProduct)
 
-          productosJSON = JSON.stringify (this.listadoProductos) 
+          productosJSON = JSON.stringify (listadoProductos) 
         
-          fs.writeFileSync('Data/Products.json', (productosJSON))
+          fs.writeFileSync('Data/cardProducts.json', (productosJSON))
 
           res.send(listadoProductos)
       },
