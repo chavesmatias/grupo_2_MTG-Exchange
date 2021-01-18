@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ./partials/head-partial.ejs %>
+</head>
+
+<body class="login-body">
+    
+    <%- include ./partials/header-partial.ejs %>
+
+
+
+<div class="register-div">
+    <form action="/productos" method="POST">
+        <input type="text" placeholder="Nombre/s" name="nombre"> <br>
+        <input type="text" placeholder="Apellido" name="apellido"> <br>
+        <input type="date" placeholder="Fecha de nacimiento" name="fecha"> <br>
+        <input type="email" placeholder="Correo Electronico" name="email"> <br>
+        <input type="email" placeholder="Confirmar correo Electronico" name="confirmEmail" ><br>
+        <input type="password" placeholder="Contraseña" name="contraseña"> <br>
+        <input type="password" placeholder="Confirmar contraseña" name="confrimContraseña"> <br>
+
+        <button type="submit">Registrarse</button>
+        <button type="reset" >Borrar campos</button>
+
+    </form>
+</div>
+<footer>
+  "Here sprouted the first seedling of Argoth. Here the last tree will fall."
+</footer>
+
+
+
+
+
+
+</body>
+</html>

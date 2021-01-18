@@ -6,7 +6,7 @@ var userController = {
 
     "register": (req, res, next) => {
         res.render('registro', { title: 'registro' });
-    },
+      },
     
 
 
