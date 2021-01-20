@@ -5,8 +5,9 @@ var router = express.Router();
 
 
 router.get('/', productsController.products)
+router.get('/listado', productsController.list)
 
-router.post('/', productsController.create)
+router.post('/create', productsController.create)
 
 
 

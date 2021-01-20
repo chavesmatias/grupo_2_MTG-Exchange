@@ -8,6 +8,14 @@ var productsController = {
         res.render('productos', { title: 'productos' });
       },
     
+    'list' : function (req, res) {
+      let archivoProductos = fs.readFileSync('Data/cardProducts.json', {encoding: 'utf-8'});
+      let listadoProductos
+        if (archivoProductos == "") {
+          listadoProductos = []; }
+          else {listadoProductos = JSON.parse(archivoProductos)} 
+          res.render('compra', {listadoProductos})
+    },
 
 
       "create": function (req, res) {
@@ -15,7 +23,9 @@ var productsController = {
         let listadoProductos
         if (archivoProductos == "") {
           listadoProductos = []; }
-          else {listadoProductos = JSON.parse (archivoProductos)}
+          else {listadoProductos = JSON.parse (archivoProductos)
+        }
+        
         
           let newProduct = {
             name: req.body.cardName,
@@ -28,11 +38,11 @@ var productsController = {
           productosJSON = JSON.stringify (listadoProductos) 
         
           fs.writeFileSync('Data/cardProducts.json', (productosJSON))
+          res.send ("Alta exitosa")
 
-          res.send(listadoProductos)
       },
         
-}
+    }
       
 
         

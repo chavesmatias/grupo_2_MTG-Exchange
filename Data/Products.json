@@ -1,5 +1,4 @@
-{
-    cards: [
+[
     {
     name: "Bad Moon",
     manaCost: "{1}{B}",
@@ -6112,5 +6111,4 @@
     ],
     id: "bc4270c5-51c8-5d8c-899a-c148df9db3af",
     },
-    ]
-    }
+]

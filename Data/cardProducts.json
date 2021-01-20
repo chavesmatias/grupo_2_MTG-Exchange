@@ -1,1 +1,94 @@
-[{"name":"wrap","manaCost":"","type":"","text":""},{"name":"ira de Mati","manaCost":"2 B","type":"Encantamiento","text":"destruye todo y gana el juego"}]
+[{  "name": "Bad Moon",
+    "manaCost": "{1}{B}",
+    "type": "Enchantment",
+    "rarity": "Rare",
+    "text": "Black creatures get +1/+1.",
+    "artist": "Gary Leach",
+    "number": "142",
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3825&"
+    },
+{   "name": "Ball Lightning",
+    "manaCost": "{R}{R}{R}",
+    "type": "Creature — Elemental",
+    "rarity": "Rare",
+    "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.) Haste (This creature can attack and {T} as soon as it comes under your control.) At the beginning of the end step, sacrifice Ball Lightning.",
+    "artist": "Quinton Hoover",
+    "number": "210",
+    "power": "6",
+    "toughness": "1",
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=4031&"
+    },
+{
+    "name": "Barbed Sextant",
+    "manaCost": "{1}",
+    "type": "Artifact",
+    "rarity": "Common",
+    "text": "{1}, {T}, Sacrifice Barbed Sextant: Add one mana of any color. Draw a card at the beginning of the next turn's upkeep.",
+    "artist": "Amy Weber",
+    "number": "351",
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3763&"
+    },
+{
+    "name": "Barl's Cage",
+    "manaCost": "{4}",
+    "type": "Artifact",
+    "rarity": "Rare",
+    "text": "{3}: Target creature doesn't untap during its controller's next untap step.",
+    "artist": "Tom Wänerstrand",
+    "number": "352",
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3764&"
+    },
+{
+    "name": "Barls Käfig",
+    "text": "{3}: Eine Kreatur Deiner Wahl enttappt nicht während der nächsten Enttap-Phase ihres Beherrschers.",
+    "imageUrl": null
+    },
+{
+    "name": "Jaula de Barl",
+    "text": null,
+    "imageUrl": null
+    },
+{
+    "name": "Cage de Barl",
+    "text": null,
+    "imageUrl": null
+    },
+{
+    "name": "Gabbia di Barl",
+    "text": null,
+    "imageUrl": null
+    },
+{
+    "name": "Battering Ram",
+    "manaCost": "{2}",
+    "type": "Artifact Creature — Construct",
+    "rarity": "Common",
+    "text": "At the beginning of combat on your turn, Battering Ram gains banding until end of combat. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's blocking.) Whenever Battering Ram becomes blocked by a Wall, destroy that Wall at end of combat.",
+    "artist": "Jeff A. Menges",
+    "number": "353",
+    "power": "1",
+    "toughness": "1",
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3765&"
+    },
+{
+    "name": "Benalish Hero",
+    "manaCost": "{W}",
+    "type": "Creature — Human Soldier",
+    "rarity": "Common",
+    "text": "Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)",
+    "artist": "Douglas Shuler",
+    "number": "10",
+    "power": "1",
+    "toughness": "1",
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=4107&"
+    },
+{
+    "name": "Binding Grasp",
+    "manaCost": "{3}{U}",
+    "type": "Enchantment — Aura",
+    "rarity": "Uncommon",
+    "text": "Enchant creature At the beginning of your upkeep, sacrifice Binding Grasp unless you pay {1}{U}. You control enchanted creature. Enchanted creature gets +0/+1.",
+    "artist": "Jeff Miracola",
+    "number": "74",
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3895&"
+}]
