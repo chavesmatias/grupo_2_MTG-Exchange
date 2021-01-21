@@ -14,16 +14,16 @@
 <div>
 <% for (let i=0; i < 10; i++) { %>
 <li>
-  <p><%listadoProductos[i].name %></p>
+  <img src="/images/<%= listadoProductos[i].imageUrl %>"><p><%=listadoProductos[i].name %></p>
 </li>  
 <%}%>
 </div>
-<div><img src="../images/multani.jpg" onclick="changeIt(this)" alt=""></div>
+<div><img src="http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3825&type=card" onclick="changeIt(this)" alt=""></div>
 
 <div><img id="imageBox" src="" alt=""></div>
 
 
-
+<!-- "../images/multani.jpg" -->
 
 </section>
 
