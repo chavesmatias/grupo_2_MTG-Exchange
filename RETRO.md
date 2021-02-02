@@ -1,13 +1,13 @@
 RETROSPECTIVA
 
-Start Doing: Revision y testeo exhaustivo de la pagina web, para encontrar errores y fallas en el codigo o uso.
+Start Doing: Revision y testeo exhaustivo de la pagina web, para encontrar errores y fallas en el codigo o su uso (antes de realizar la entrega).
 
 Organizar mejor las herramientas como Trello para facilitar su uso hacia los miembros del equipo y establecer horarios semanales de reunion para avanzar gradualmente en el proyecto.
 
 More Of: Trabajo en equipo para la resolucion de armado base de codigo, mas seguimiento del mismo por cada responsable, para dar un mejor diseño y funcionalidad.
 Consultar a los profes sobre dudas o inconvenientes en el codigo que no podamos resolver, para no demorar el avance de los sprints.
 
-Se busca continuar utilizando la lluvia de ideas a la hora se avanzar sobre el trabajo y el implemento de otras aplicaciones a la hora de comunicarnos tales como Skype, Zoom o Google Meet. 
+Se busca continuar utilizando la lluvia de ideas a la hora de avanzar sobre el trabajo y el implemento de otras aplicaciones a la hora de comunicarnos tales como Skype, Zoom o Google Meet. 
 
 Keep Doing: Seguir con las reuniones fijas de los sabados y domingos, y agregar reuniones espontaneas para resolver dudas o problemas.
 
@@ -17,4 +17,4 @@ Less Of: Diseño de objetivos complicados y terminados desde el inicio. Empezar 
 
 Mala organizacion de tiempo o falta de comunicacion a la hora de organizar una reunion de equipo.
 
-Stop Doing: Dejar todo para ultimo momento.
+Stop Doing: Dejar todo para ultimo momento. No complicarse con diseños muy complejos. 
