@@ -26,7 +26,7 @@
     "text": "{1}, {T}, Sacrifice Barbed Sextant: Add one mana of any color. Draw a card at the beginning of the next turn's upkeep.",
     "artist": "Amy Weber",
     "number": "351",
-    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3763&"
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3763&type=card"
     },
 {
     "name": "Barl's Cage",
@@ -36,7 +36,7 @@
     "text": "{3}: Target creature doesn't untap during its controller's next untap step.",
     "artist": "Tom Wänerstrand",
     "number": "352",
-    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3764&"
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3764&type=card"
     },
 {
     "name": "Barls Käfig",
@@ -68,7 +68,7 @@
     "number": "353",
     "power": "1",
     "toughness": "1",
-    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3765&"
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3765&type=card"
     },
 {
     "name": "Benalish Hero",
@@ -80,7 +80,7 @@
     "number": "10",
     "power": "1",
     "toughness": "1",
-    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=4107&"
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=4107&type=card"
     },
 {
     "name": "Binding Grasp",
@@ -90,5 +90,5 @@
     "text": "Enchant creature At the beginning of your upkeep, sacrifice Binding Grasp unless you pay {1}{U}. You control enchanted creature. Enchanted creature gets +0/+1.",
     "artist": "Jeff Miracola",
     "number": "74",
-    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3895&"
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3895&type=card"
 }]
