@@ -1,6 +1,6 @@
 RETROSPECTIVA
 
-Start Doing: Revision y testeo exhaustivo de la pagina web, para encontrar errores y fallas en el codigo o su uso (antes de realizar la entrega).
+Start Doing: Revision y testeo exhaustivo de la pagina web, para encontrar errores y fallas en el codigo o su uso (antes de realizar la entrega). Armar un cronograma de como implementar las tareas a desarrollar.
 
 Organizar mejor las herramientas como Trello para facilitar su uso hacia los miembros del equipo y establecer horarios semanales de reunion para avanzar gradualmente en el proyecto.
 
