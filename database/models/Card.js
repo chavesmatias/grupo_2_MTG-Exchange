@@ -2,14 +2,13 @@ const { config } = require("dotenv/types");
 const { DataTypes } = require("sequelize/types");
 
 module.exports = (sequelize, dataTypes) => {
-const Card = sequelize.define(alias, cols, config)
+
 let alias = "cards"
 let cols = {
     id : { 
-        type : dataTypes.biginteger.UNSIGNED ,  
+        type : dataTypes.integer.UNSIGNED ,  
         primarykey : TRUE , 
         autoincrement : TRUE ,
-
     } ,
     name : {
         type : dataTypes.string.NOTNULL,
@@ -44,9 +43,15 @@ let cols = {
     stock : {
         type : dataTypes.integer.NOTNULL,
     }
-}
-return Card
+    
 }
 
+const card = sequelize.define(alias, cols, config)
 
-Card.associate
+//card.associate = function (models){
+    //card.belongsTo 
+//}
+
+return card
+}
+
