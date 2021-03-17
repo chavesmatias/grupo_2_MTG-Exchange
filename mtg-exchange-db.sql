@@ -105,7 +105,14 @@ DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `first_name` varchar(100) NOT NULL,
-  PRIMARY KEY (`id`)
+  `last_name` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(200) NOT NULL,
+  `user_name` varchar(100) NOT NULL,
+  `adress` varchar(45) NOT NULL,
+  `shopping_cart_id` bigint(20) unsigned NOT NULL,
+  PRIMARY KEY (`id`),
+  CONSTRAINT `shopping_cart_id` FOREIGN KEY (`id`) REFERENCES `shopping_cart` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -127,4 +134,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-03-17 20:02:11
+-- Dump completed on 2021-03-17 20:31:01
