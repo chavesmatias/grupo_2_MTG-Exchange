@@ -48,9 +48,13 @@ let cols = {
 
 const card = sequelize.define(alias, cols, config)
 
-//card.associate = function (models){
-    //card.belongsTo 
-//}
+card.associate = function (models){
+    card.belongsToMany (models.Cards_has_shopping_cart, {
+        as: "cards",
+        through: "cards_has_shopping_cart",
+        foreingkey: "id_cards"
+    }) 
+}
 
 return card
 }

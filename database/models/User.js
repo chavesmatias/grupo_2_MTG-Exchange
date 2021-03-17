@@ -3,55 +3,46 @@ const { DataTypes } = require("sequelize/types");
 
 module.exports = (sequelize, dataTypes) => {
 
-let alias = "cards"
+let alias = "users"
 let cols = {
     id : { 
         type : dataTypes.integer.UNSIGNED ,  
         primarykey : TRUE , 
         autoincrement : TRUE ,
     } ,
-    name : {
+    first_name : {
         type : dataTypes.string.NOTNULL,
     },
-    mana_cost : {
-        type : dataTypes.integer.NOTNULL,
-    },
-    color : {
+    last_name : {
         type : dataTypes.string.NOTNULL,
     },
-    type : {
+    email : {
         type : dataTypes.string.NOTNULL,
     },
-    ability : {
+    password : {
         type : dataTypes.string.NOTNULL,
     },
-    text : {
+    user_name : {
         type : dataTypes.string.NOTNULL,
     },
-    power : {
-        type : dataTypes.integer.NOTNULL,
-    },
-    toughness : {
-        type : dataTypes.integer.NOTNULL,
-    },
-    expansion : {
+    adress : {
         type : dataTypes.string.NOTNULL,
     },
-    price : {
-        type : dataTypes.integer.NOTNULL,
-    },
-    stock : {
+    shopping_cart_id : {
         type : dataTypes.integer.NOTNULL,
     }
-    
 }
 
-const card = sequelize.define(alias, cols, config)
+const user = sequelize.define(alias, cols, config)
 
-//card.associate = function (models){
-    //card.belongsTo 
-//}
+user.associate = function (models){
+    user.belongsTo (models.User, {
+        as: "user",
+        through: "cards_has_shopping_cart",
+        foreingkey: "id_shopping_cart_id"
+    }) 
+}
 
-return card
+return user
 }
 
