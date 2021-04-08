@@ -1,35 +1,40 @@
-const { config } = require("dotenv/types");
-const { DataTypes } = require("sequelize/types");
+
 
 module.exports = (sequelize, dataTypes) => {
 
-let alias = "users"
+    let config={
+        tableName:'users',
+        timestamps:false,
+        underscored:true
+    }     
+
+let alias = "User"
 let cols = {
     id : { 
-        type : dataTypes.integer.UNSIGNED ,  
-        primarykey : TRUE , 
-        autoincrement : TRUE ,
+        type : dataTypes.INTEGER,  
+        primaryKey : true , 
+        autoincrement : true ,
     } ,
     first_name : {
-        type : dataTypes.string.NOTNULL,
+        type : dataTypes.STRING,
     },
     last_name : {
-        type : dataTypes.string.NOTNULL,
+        type : dataTypes.STRING,
     },
     email : {
-        type : dataTypes.string.NOTNULL,
+        type : dataTypes.STRING,
     },
     password : {
-        type : dataTypes.string.NOTNULL,
+        type : dataTypes.STRING,
     },
     user_name : {
-        type : dataTypes.string.NOTNULL,
+        type : dataTypes.STRING,
     },
     adress : {
-        type : dataTypes.string.NOTNULL,
+        type : dataTypes.STRING,
     },
     shopping_cart_id : {
-        type : dataTypes.integer.NOTNULL,
+        type : dataTypes.INTEGER,
     }
 }
 

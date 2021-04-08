@@ -1,6 +1,7 @@
 
-const { Console } = require("console");
+
 const fs = require("fs")
+const db = require("../../database/models")
 
 var userController = {
 
@@ -35,6 +36,23 @@ var userController = {
           }
         
         }
+      },
+
+      "createUser": function (req, res, next) {
+        db.User.findAll()
+        .then (function (users){
+          return res.render ("listadoUsuarios", {users:users})
+        })
+        .catch((error) => {
+          console.log(error)
+        })
+      },
+
+      'guardado': function (req, res){
+        db.users.createUser ({
+          first_name: req.body.nombre
+        });
+        res.redirect('/listadoUsuarios')
       }
 
         

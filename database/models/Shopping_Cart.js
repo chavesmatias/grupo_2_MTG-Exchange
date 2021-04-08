@@ -1,20 +1,25 @@
-const { config } = require("dotenv/types");
-const { DataTypes } = require("sequelize/types");
+
 
 module.exports = (sequelize, dataTypes) => {
 
-let alias = "shopping_carts"
+    let config={
+        tableName:'shopping_cart',
+        timestamps:false,
+        underscored:true
+    }    
+
+let alias = "Shopping_carts"
 let cols = {
     id : { 
-        type : dataTypes.integer.UNSIGNED ,  
-        primarykey : TRUE , 
-        autoincrement : TRUE ,
+        type : dataTypes.INTEGER.UNSIGNED ,  
+        primaryKey : true , 
+        autoincrement : true ,
     } ,
     detail : {
-        type : dataTypes.string.NOTNULL,
+        type : dataTypes.STRING,
     },
     quanty : {
-        type : dataTypes.integer.NOTNULL,
+        type : dataTypes.INTEGER,
     }
 }
 
